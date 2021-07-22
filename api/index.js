@@ -8,6 +8,7 @@ const morgan = require("morgan");
 
 const userRoute = require("./routes/user.js");
 const authRoute = require("./routes/auth.js");
+const postRoute = require("./routes/posts.js");
 
 /*
 make dotenv ready to use
@@ -33,6 +34,7 @@ app.use(morgan("common"));
 
 app.use("/api/user",userRoute);
 app.use("/api/auth",authRoute);
+app.use("/api/posts", postRoute);
 
 app.listen(8080,()=> {
     console.log("Backend server started successfully on 8080")
