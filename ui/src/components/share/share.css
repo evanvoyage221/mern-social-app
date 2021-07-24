@@ -63,3 +63,15 @@
     font-size:14px;
     font-weight: 400;
 }
+
+.shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: 400;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+
