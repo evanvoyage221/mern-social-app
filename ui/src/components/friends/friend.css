@@ -1,0 +1,44 @@
+.sidebarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.sidebarIcon{
+    margin-right: 15px;
+}
+
+.sidebarButton{
+    width: 150px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sidebarHr{
+    margin: 20px 0;
+
+}
+
+.sidebarFriendsList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.sidebarFriends{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.sidebarFriendImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
